@@ -227,6 +227,7 @@ d. It also measures well-wise the intensity percentage, which is defined as: Int
 ## Citing
 
 If using this tool, please cite this paper:
-
+```
 Guzmán C, Bagga M, Kaur A, Westermarck J, Abankwa D. ColonyArea: an ImageJ plugin to automatically quantify colony formation in clonogenic assays. PLoS One. 2014 Mar 19;9(3):e92444. doi: 10.1371/journal.pone.0092444. PMID: 24647355; PMCID: PMC3960247.
+```
  
