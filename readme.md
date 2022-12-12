@@ -1,5 +1,29 @@
-# User Manual for the ImageJ plugin: “ColonyArea”
-Manish Bagga, Camilo Guzmán and Daniel Abankwa
+# Colony Area plugin
+*Manish Bagga, Camilo Guzmán and Daniel Abankwa 2007*
+
+*Code maintenance support Turku BioImaging image-data@bioimaging.fi*
+
+
+### Abstract: 
+Clonogenic assays measure the survival and growth of a single mammalian cell into a colony. These colony or focus formation assays are widely used in radiation biology and cancer biology, where they are employed to study resistance of cancer cells to radiation or the transforming potential of genes, respectively.
+
+We have developed “ColonyArea”, an ImageJ-plugin that is optimized to perform standard analysis of colony formation assays conducted in 6- to 24-well dishes. The plugin processes each well individually and determines not the colony number, but the area of the well covered with cells, also taking the intensity into account.
+
+ColonyArea comes as a packaged bundle, containing the files:
+1. Colony_area.java (java file that contains the code for the plugin)
+2. Colony_thresholder.ijm (macro)
+3. Manual_colony_thresholder.ijm (macro)
+4. Colony_measurer.ijm (macro)
+5. ColonyArea_manual.pdf (detailed user manual)
+6. gpl.rtf (Gnu general public license)
+
+For correct functioning, ColonyArea requires an ImageJ version that includes the java compiler, version1.47n or later. The manual for ColonyArea that is included in the bundle describes in detail how to install and use the plugin.
+
+Sample images are also provided here for testing. They consists of 12-well plate samples of T98G cells treated with different concentrations of a staurosporine (UCN-01). Wells in the same row correspond to replicates of the concentrations mentioned next to each file.
+
+
+
+# User Manual for “ColonyArea”
 
 ## Introduction
 
