@@ -43,10 +43,10 @@ need more RAM memory than what is given on its default settings. 650 MB should b
 • Go to *Edit -> Options -> Memory & Threads*.
 • Give it NO more than 75% of the total RAM on the working computer.
 Using more than 75% could result in virtual RAM being used, which may cause ImageJ to become slow and unstable.
-Image Requirements:
+### Image Requirements:
 1. We recommend that images to be processed should have a resolution higher than 800 dpi, preferably higher than 1200 dpi. The plugin would work on images with lower resolution too, but in such cases the image quality would be very low and the reliability of the measurement might become compromised.
 2. Images should be preferably in a “.tiff” format because this format allows for a higher resolution and image quality. Formats like “.png”, “.jpeg”, “.bmp”, “.gif” are also supported but our tests show that results are not as accurate as with “.tiff” due to the lower image quality in those formats.
-I. Image straightening and ROI selection:
+## Step I. Image straightening and ROI selection:
 1. Close all images opened in ImageJ and open the “.tiff” image of the colony formation assay that you want to process.
 2. Go to *Image -> Transform -> Rotate*
 3. Set the angle to 0, gridlines to anywhere from 20-100 depending on image size
@@ -60,20 +60,18 @@ and your discretion. Tick “Preview” (See Fig. 1).
 
 **Figure 2:** Use the rectangular selection tool to choose the wells to be analyzed.
   
-   5.
-Based on visual inspection, select an angle such that the image is nearly horizontal. (With an acceptable error of about 1-1.5 degrees max.) Then click on “OK”.
+4. Based on visual inspection, select an angle such that the image is nearly horizontal. (With an acceptable error of about 1-1.5 degrees max.) Then click on “OK”.
 After the image has been straightened, use the “Rectangular Selection” tool from the ImageJ toolbar to make a selection of a region of interest (ROI) containing the wells you want to process (See Fig. 2). The selection should be done in such a way that the sides of the rectangle touch the outer walls of the wells. This option allows the user to analyze only a subsection of the plate if desired.
-Thresholding and colony quantification using
-II. Colony_area:
+## Step II. Thresholding and colony quantification using Colony_area:
 1. After you have completed the “Image straightening and ROI selection” steps, go to the plugins menu and select “Colony_area” (Go to *Plugins -> ColonyArea -> Colony area*).
 2. The plugin will ask you to choose the desired postfix for all the names of processed images and result files, plus the directory where you want every resultant file to be saved. So, a save file dialog will appear (See Fig. 3).
 
 ![](images/Figure3.jpg)
 
 **Figure 3:** Choosing the location the directory for the result files and the postfix that the files will have.
-1. The default for postfix is set as the name of your image file (i.e. a file called “name.tiff” will have “_name” as postfix).
+3. The default for postfix is set as the name of your image file (i.e. a file called “name.tiff” will have “_name” as postfix).
  
-2. The ROI will be converted to gray scale (8-bit). Then you will be presented with an option menu where you can choose the type of plate that is going to be processed (different plate sizes have different distances between wells). This choice refers only to the type of plate (6, 12 or 24-well) and not to the actual number of wells that you have selected in the ROI (See Fig. 4). It is also possible to use custom plates, see the “Appendix A6” of this manual for details.
+4. The ROI will be converted to gray scale (8-bit). Then you will be presented with an option menu where you can choose the type of plate that is going to be processed (different plate sizes have different distances between wells). This choice refers only to the type of plate (6, 12 or 24-well) and not to the actual number of wells that you have selected in the ROI (See Fig. 4). It is also possible to use custom plates, see the “Appendix A6” of this manual for details.
 
 ![](images/Figure4.jpg)
 
@@ -81,8 +79,7 @@ II. Colony_area:
 
 ![](images/Figure5.jpg)
 
-**Figure 5:** Operating the plugin: choose the number of wells in a row and in a column. 5. The user will be asked to give the number of wells in a row and in a column. The values provided here must correspond to the wells that you have selected
-in the ROI (See Fig. 5).
+**Figure 5:** Operating the plugin: choose the number of wells in a row and in a column. 5. The user will be asked to give the number of wells in a row and in a column. The values provided here must correspond to the wells that you have selected in the ROI (See Fig. 5).
   
 1. The plugin will proceed to crop the image, detect the wells, and create an image stack type “.tiff” of the wells. This image stack is named “wells_name.tiff” and it will be saved in the results folder you specified (See “Appendix” for details on file naming). The wells in this image stack are ordered starting from the well on the top-right corner of the selected region of interest (See Fig. 6), continuing with those wells to the right, and after proceeding with the next row in the same way (i.e. like writing a text, left to right and top to bottom). This image stack file contains only the identified wells in an 8-bit grey scale format.
 [Note: If the plugin detects that you have not cropped the image to a required degree of accuracy, it will ask you to correct this. See the “Appendix” of this manual for details about such case.]
@@ -226,4 +223,10 @@ d. It also measures well-wise the intensity percentage, which is defined as: Int
  
 𝑐𝑜𝑙𝑜𝑛𝑦 𝑖𝑛𝑡𝑒𝑛𝑠𝑖𝑡𝑦 % = 𝑝𝑖𝑥𝑒𝑙 𝑖𝑛𝑡𝑒𝑛𝑠𝑖𝑡𝑖𝑒𝑠 𝑖𝑛 𝑎 𝑟𝑒𝑔𝑖𝑜𝑛 𝑥 100 𝑚𝑎𝑥𝑖𝑚𝑢𝑚 𝑖𝑛𝑡𝑒𝑛𝑠𝑖𝑡𝑖𝑒𝑠 𝑝𝑜𝑠𝑠𝑖𝑏𝑙𝑒 𝑖𝑛 𝑡h𝑒 𝑠𝑎𝑚𝑒 𝑟𝑒𝑔𝑖𝑜𝑛
 [Note: sum of maximum intensities can be rewritten as 255*area of well or region.]
+ 
+## Citing
+
+If using this tool, please cite this paper:
+
+Guzmán C, Bagga M, Kaur A, Westermarck J, Abankwa D. ColonyArea: an ImageJ plugin to automatically quantify colony formation in clonogenic assays. PLoS One. 2014 Mar 19;9(3):e92444. doi: 10.1371/journal.pone.0092444. PMID: 24647355; PMCID: PMC3960247.
  
