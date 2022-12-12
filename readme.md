@@ -1,4 +1,4 @@
-# Colony Area plugin
+# ColonyArea ImageJ plugin
 *Manish Bagga, Camilo Guzmán and Daniel Abankwa 2007*
 
 *Code maintenance support Turku BioImaging image-data@bioimaging.fi*
