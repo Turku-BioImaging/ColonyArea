@@ -23,7 +23,7 @@ Sample images are also provided here for testing. They consists of 12-well plate
 
 
 
-# User Manual for “ColonyArea”
+# User Manual
 
 ## Introduction
 
