@@ -30,11 +30,11 @@ and your discretion. Tick “Preview” (See Fig. 1).
 
 ![](images/Figure1.jpg)
 
-Figure 1: Use the rotate command to straighten the image.
+**Figure 1:** Use the rotate command to straighten the image.
 
 ![](images/Figure2.jpg)
 
-Figure 2: Use the rectangular selection tool to choose the wells to be analyzed.
+**Figure 2:** Use the rectangular selection tool to choose the wells to be analyzed.
   
    5.
 Based on visual inspection, select an angle such that the image is nearly horizontal. (With an acceptable error of about 1-1.5 degrees max.) Then click on “OK”.
@@ -46,18 +46,18 @@ II. Colony_area:
 
 ![](images/Figure3.jpg)
 
-Figure 3: Choosing the location the directory for the result files and the postfix that the files will have.
+**Figure 3:** Choosing the location the directory for the result files and the postfix that the files will have.
 1. The default for postfix is set as the name of your image file (i.e. a file called “name.tiff” will have “_name” as postfix).
  
 2. The ROI will be converted to gray scale (8-bit). Then you will be presented with an option menu where you can choose the type of plate that is going to be processed (different plate sizes have different distances between wells). This choice refers only to the type of plate (6, 12 or 24-well) and not to the actual number of wells that you have selected in the ROI (See Fig. 4). It is also possible to use custom plates, see the “Appendix A6” of this manual for details.
 
 ![](images/Figure4.jpg)
 
-Figure 4: Operating the plugin: choose the plate type.
+**Figure 4:** Operating the plugin: choose the plate type.
 
 ![](images/Figure5.jpg)
 
-Figure 5: Operating the plugin: choose the number of wells in a row and in a column. 5. The user will be asked to give the number of wells in a row and in a column. The values provided here must correspond to the wells that you have selected
+**Figure 5:** Operating the plugin: choose the number of wells in a row and in a column. 5. The user will be asked to give the number of wells in a row and in a column. The values provided here must correspond to the wells that you have selected
 in the ROI (See Fig. 5).
   
 1. The plugin will proceed to crop the image, detect the wells, and create an image stack type “.tiff” of the wells. This image stack is named “wells_name.tiff” and it will be saved in the results folder you specified (See “Appendix” for details on file naming). The wells in this image stack are ordered starting from the well on the top-right corner of the selected region of interest (See Fig. 6), continuing with those wells to the right, and after proceeding with the next row in the same way (i.e. like writing a text, left to right and top to bottom). This image stack file contains only the identified wells in an 8-bit grey scale format.
@@ -65,7 +65,7 @@ in the ROI (See Fig. 5).
 
 ![](images/Figure6.jpg)
 
-Figure 6: Example from a 12-well plate showing how the wells are ordered in the stack file (“wells_name.tiff”). The numbers in red have been superposed here for explanation purposes but are not present on the execution of the plugin.
+**Figure 6:** Example from a 12-well plate showing how the wells are ordered in the stack file (“wells_name.tiff”). The numbers in red have been superposed here for explanation purposes but are not present on the execution of the plugin.
 1. In the next step, the image stack of the cropped and selected wells (“wells_name.tiff”) is thresholded to detect the pixels containing the cells and remove the background. A second image stack named “thresholded_wells_name.tiff” will appear showing the identified colonies with their respective intensity using a “fire” lookup table (LUT) on a white background (See Fig. 7). Another window is also displayed with the threshold value applied to each well. This file will be saved with the name “applied_threshold_wells_name.txt” (See Fig. 8).
 [Note: There might be cases when the thresholds can not be detected according to the standard method or the result is not satisfactory, i.e. colonies are missing or background is also selected, for further explanation on how to deal with such cases see the “Appendix” section of this manual.]
  1234
@@ -75,16 +75,16 @@ Figure 6: Example from a 12-well plate showing how the wells are ordered in the 
 
 ![](images/Figure7.jpg)
 
-Figure 7: Examples of images contained in the two stacks that the plugin creates. Upper row shows the cropped wells (“wells_name.tiff”) displayed on an 8-bit grey scale. Lower row shows the identified colonies (“thresholded_wells_name.tiff”) with their respective intensity using a “fire” lookup table.
+**Figure 7:** Examples of images contained in the two stacks that the plugin creates. Upper row shows the cropped wells (“wells_name.tiff”) displayed on an 8-bit grey scale. Lower row shows the identified colonies (“thresholded_wells_name.tiff”) with their respective intensity using a “fire” lookup table.
 
 ![](images/Figure8.jpg)
 
-Figure 8: The plugin displays the cropped wells stack and the thresholded stack alongside to allow for visual comparison and identification of cases when parts of the background might have been selected as colonies. It also displays the computed thresholds.
+**Figure 8:** The plugin displays the cropped wells stack and the thresholded stack alongside to allow for visual comparison and identification of cases when parts of the background might have been selected as colonies. It also displays the computed thresholds.
 1. To calculate the results use the “Colony measurer” tool. Select the window containing the thresholded wells stack (“thresholded_wells_name.tiff”) and go to *Plugins -> ColonyArea -> Colony measurer* (See Fig. 9).
  
  ![](images/Figure9.jpg)
  
- Figure 9: Run the “Colony measurer” tool to measure the area percent and intensity percent.
+**Figure 9:** Run the “Colony measurer” tool to measure the area percent and intensity percent.
 9. A table of results will appear in a new window and it will be saved with the name “results_thresholded_wells_name.txt”. The columns in the table correspond to the well number, percentage of area in the well covered by the colonies “colony area percentage”, and another parameter called “colony intensity percentage”. Colony intensity percentage is a parameter that takes into account both the area covered by the colonies and the density of the colonies (intensity of staining for each pixel). It can be used as an independent parameter or it can be used to distinguish two or more plates that have the same cell area but have different amount of cells due to a difference in the density of colonies present. On this table each column is separated by a fixed width (number of spaces) allowing for easy transfer into any data manipulation software.
 III. Files description
 Files contained in the plugin:
@@ -119,7 +119,7 @@ If you find that after running the plugin on your colony formation assay images,
 
 ![](images/Figure10.jpg)
 
-Figure 10: Using a rectangular selection tool to manually choose a sub-region of a well for analysis.
+**Figure 10:** Using a rectangular selection tool to manually choose a sub-region of a well for analysis.
 • Then you can go to PluginsàColonyAreaàColony measurer.
 • In the case that you have selected a sub-region of the well, you will be asked to define the range of wells where you want to do this analysis (e.g. all the wells - starting on the first and ending on the last, or only on one or a few of
 the wells).
@@ -140,11 +140,11 @@ In some rare cases, like the case where the plate only consists of wells with ex
 
 ![](images/Figure11.jpg)
 
- Figure 11: Determining the reference threshold of a reference well in case of failure of automatic thresholding.
+**Figure 11:** Determining the reference threshold of a reference well in case of failure of automatic thresholding.
 
 ![](images/Figure12.jpg)
 
-Figure 12: Running the “Manual colony thresholder” tool: setting up the reference well and the reference threshold in that well.
+**Figure 12:** Running the “Manual colony thresholder” tool: setting up the reference well and the reference threshold in that well.
  
 • Select a well of your choice as your reference well. Go to ImageàAdjustàThreshold
 • Slide the lower threshold slider to 1.
@@ -175,7 +175,7 @@ well plate.
 
 ![](images/Figure13.jpg) 
 
-Figure 13:Parameters calculation for a customized plate. 𝐷2and 𝐷3 are the correct way of measuring the well’s wall thickness (maximum thickness) and the inter-well distance (minimum distance) while𝐷4 and 𝐷5 are the incorrect way of measuring them. The final area to be analyzed for colonies (white area) corresponds to the area of the well reducing its diameter 𝐷1 by 𝑁%.
+**Figure 13:** Parameters calculation for a customized plate. 𝐷2and 𝐷3 are the correct way of measuring the well’s wall thickness (maximum thickness) and the inter-well distance (minimum distance) while𝐷4 and 𝐷5 are the incorrect way of measuring them. The final area to be analyzed for colonies (white area) corresponds to the area of the well reducing its diameter 𝐷1 by 𝑁%.
  
 Steps involved in the processing
 1. Colony_area.java:
