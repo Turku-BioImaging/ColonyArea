@@ -11,7 +11,7 @@
 <sup>1</sup>Turku Centre for Biotechnology, University of Turku, Åbo Akademi University  
 <sup>2</sup>Equal contribution
 
-<table style='border-style:hidden';>
+<table style='border-collapse: collapse; border-style:hidden';>
 <tr style='padding:10px;'>
 <td style='padding: 10px;'><img src='images/turku_bioscience_logo_RGB-300x78.png' width='auto' height='45'/></td>
 <td style='padding: 10px;'><img src='images/UTU_logo_EN_RGB.png' width='auto' height='45'/></td>
