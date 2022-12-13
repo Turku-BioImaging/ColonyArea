@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Guzmán"
+    given-names: "Camilo"
+  - family-names: "Bagga"
+    given-names: "Manish"
+  - family-names: 'Kaur'
+    given-names: 'Amanpreet'
+  - family-names: 'Westermarck',
+    given-names: 'Jukka'
+  - family-names: 'Abankwa'
+    given-names: 'Daniel'
+title: "ColonyArea: An ImageJ Plugin to Automatically Quantify Colony Formation in Clonogenic Assays"
+version: 1.0.1
+doi: 10.1371/journal.pone.0092444
+date-released: 2014-03-19
+url: "https://github.com/Turku-BioImaging/ColonyArea"
