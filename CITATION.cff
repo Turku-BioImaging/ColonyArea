@@ -13,6 +13,26 @@ authors:
     given-names: "Daniel"
 preferred-citation:
   type: article
+  authors:
+    - family-names: "Guzmán"
+      given-names: "Camilo"
+    - family-names: "Bagga"
+      given-names: "Manish"
+    - family-names: "Kaur"
+      given-names: "Amanpreet"
+    - family-names: "Westermarck"
+      given-names: "Jukka"
+    - family-names: "Abankwa"
+      given-names: "Daniel"
+  doi: 10.1371/journal.pone.0092444
+  journal: "PloS ONE"
+  month: 3
+  start: ""
+  end: ""
+  title: "ColonyArea: An ImageJ plugin to automatically quantify colony formation in clonogenic assays"
+  issue: 3
+  volume: 9
+  year: 2014
 title: "ColonyArea: An ImageJ Plugin to Automatically Quantify Colony Formation in Clonogenic Assays"
 version: 1.0.1
 doi: 10.1371/journal.pone.0092444
