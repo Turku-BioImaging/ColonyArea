@@ -14,7 +14,7 @@
 <table style='border-collapse: collapse; border-style:hidden';>
 <tr style='padding:10px;'>
 <td style='padding: 10px;'><a href='https://bioscience.fi' target='_blank'><img src='images/turku_bioscience_logo_RGB-300x78.png' width='auto' height='45'/></a></td>
-<td style='padding: 10px;'><a href='https://utu.fi' target='_blank'<img src='images/UTU_logo_EN_RGB.png' width='auto' height='45'/></a></td>
+<td style='padding: 10px;'><a href='https://utu.fi' target='_blank'><img src='images/UTU_logo_EN_RGB.png' width='auto' height='45'/></a></td>
 <td style='padding: 10px;'><a href='https://abo.fi' target='_blank'><img src='images/aaenglogobasicbw2009.png' width='auto' height='55'/></a></td>
 </tr>
 </table>
