@@ -6,7 +6,12 @@
 
 # ColonyArea ImageJ plugin
 
-**Camilo Guzmán, Manish Bagga, Amanpreet Kaur, Jukka Westermarck, and Daniel Abankwa**
+**Camilo Guzmán<sup>1,2,3,4</sup>, Manish Bagga<sup>1,2,3,4</sup>, Amanpreet Kaur<sup>1,2,3</sup>, Jukka Westermarck<sup>1,2,3</sup>, and Daniel Abankwa<sup>1,2,3</sup>**
+
+<sup>1</sup>Turku Centre for Biotechnology  
+<sup>2</sup>University of Turku  
+<sup>3</sup>Åbo Akademi University  
+<sup>4</sup>Equal contribution
 
 ## Abstract:
 
