@@ -12,9 +12,9 @@
 <sup>2</sup>Equal contribution
 
 <p float='left'>
-    <img src='images/turku_bioscience_logo_RGB-300x78.png' style="height:45px;width:auto;"/>
-    <img src='images/UTU_logo_EN_RGB.png' style="height:45px;width:auto;margin-left:35px;"/>
-    <img src='images/aaenglogobasicbw2009.png' style="height:55px;width:auto;margin-left:35px;"/>
+    <img src='images/turku_bioscience_logo_RGB-300x78.png' width='auto' height='45'/>
+    <img src='images/UTU_logo_EN_RGB.png' width='auto' height='45' style='margin-left: 20px;'/>
+    <img src='images/aaenglogobasicbw2009.png' width='auto' height='55' style='margin-left: 20px;'/>
 </p>
 
 ## Abstract:
