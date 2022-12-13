@@ -19,9 +19,9 @@ We have developed _ColonyArea_, an ImageJ-plugin that is optimized to perform st
 
 ## Installation
 
-### Fiji Update Site
+_ColonyArea_ can be installed either through Fiji Update Sites or manually.
 
-This is the **recommended** method to install the _ColonyArea_ plugin.
+### Fiji Update Site (recommended)
 
 In the Fiji menu, go to _Help -> Update... -> Manage update sites_ and select the _ColonyArea_ site. Click _Close_ then _Apply Changes_. Restart Fiji. In the _Plugins_ dropdown of the Fiji menu, _ColonyArea_ should now be available.
 
