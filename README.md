@@ -11,6 +11,12 @@
 <sup>1</sup>Turku Centre for Biotechnology, University of Turku, Åbo Akademi University  
 <sup>2</sup>Equal contribution
 
+<p style='display:flex;align-items:middle;'>
+    <img src='images/turku_bioscience_logo_RGB-300x78.png' style="height:55px;width:auto;"/>
+    <img src='images/UTU_logo_EN_RGB.png' style="height:55px;width:auto;margin-left:15px;"/>
+    <img src='images/aaenglogobasicbw2009.png' style="height:75px;width:auto;margin-left:15px;"/>
+</p>
+
 ## Abstract:
 
 Clonogenic assays measure the survival and growth of a single mammalian cell into a colony. These colony or focus formation assays are widely used in radiation biology and cancer biology, where they are employed to study resistance of cancer cells to radiation or the transforming potential of genes, respectively.
