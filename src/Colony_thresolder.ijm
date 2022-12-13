@@ -17,7 +17,11 @@
     along with ColonyArea.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-
+/**
+This source code is maintained by Turku BioImaging
+https://github.com/Turku-BioImaging/ColonyArea
+https://bioimaging.fi
+*/
 
 
   macro "Colony_thresolder" {
