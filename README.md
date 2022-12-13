@@ -5,6 +5,7 @@
 </p>
 
 # ColonyArea ImageJ plugin
+[![DOI:10.1371/journal.pone.0092444](http://img.shields.io/badge/DOI-10.1371/journal.pone.0092444-00AEEF.svg)](https://doi.org/10.1371/journal.pone.0092444)
 
 **Camilo Guzmán<sup>1,2</sup>, Manish Bagga<sup>1,2</sup>, Amanpreet Kaur<sup>1</sup>, Jukka Westermarck<sup>1</sup>, and Daniel Abankwa<sup>1</sup>**
 
