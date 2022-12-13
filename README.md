@@ -12,9 +12,13 @@ We have developed “ColonyArea”, an ImageJ-plugin that is optimized to perfor
 
 ## Installation
 
+### Fiji Update Site
+
+### Manual install
+
 ## Usage
 
-Detailed usage instructions and examples are provided.
+Detailed usage instructions and examples [here](https://github.com/Turku-BioImaging/ColonyArea/blob/main/USAGE.md).
 
 ## Citation
 
