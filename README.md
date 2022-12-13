@@ -27,9 +27,20 @@ In the Fiji menu, go to _Help -> Update... -> Manage update sites_ and select th
 
 ### Manual install
 
+Download the [latest release](https://github.com/Turku-BioImaging/ColonyArea/releases) from the repository. Copy the following files to your Fiji plugins directory:
+
+- Colony_area.class
+- Colony_measurer.ijm
+- Colony_thresolder.ijm
+- Manual_colony_thresholder.ijm
+
+Restart Fiji. In the _Plugins_ dropdown of the Fiji menu, _ColonyArea_ should now be available.
+
 ## Usage
 
 Detailed usage instructions and examples [here](https://github.com/Turku-BioImaging/ColonyArea/blob/main/USAGE.md).
+
+Sample image files used in the manual can be downloaded [here](https://b2share.eudat.eu/records/39fa39965b314f658e4a198a78d7f6b5).
 
 ## Citation
 
