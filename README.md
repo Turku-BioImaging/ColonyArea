@@ -30,6 +30,21 @@ ColonyArea: an ImageJ plugin to automatically quantify colony formation in clono
 PLoS One. 2014 Mar 19;9(3):e92444. doi: 10.1371/journal.pone.0092444. PMID: 24647355; PMCID: PMC3960247.
 ```
 
+### Bibtex
+
+```
+@article{Guzman_ColonyArea_An_ImageJ_2014,
+author = {Guzmán, Camilo and Bagga, Manish and Kaur, Amanpreet and Westermarck, Jukka and Abankwa, Daniel},
+doi = {10.1371/journal.pone.0092444},
+journal = {PloS ONE},
+month = {3},
+number = {3},
+title = {{ColonyArea: An ImageJ plugin to automatically quantify colony formation in clonogenic assays}},
+volume = {9},
+year = {2014}
+}
+```
+
 ## Maintenance
 
 Beginning in October 2022, maintenance of this plugin is handled by [Turku BioImaging](https://bioimaging.fi), a broad-based, interdisciplinary science and infrastructure umbrella that aims to unite bioimaging expertise in Turku and elsewhere in Finland. Turku BioImaging is jointly operated by the [University of Turku](https://utu.fi) and [Åbo Akademi University](https://abo.fi).
