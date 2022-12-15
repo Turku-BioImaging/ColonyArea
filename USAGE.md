@@ -31,14 +31,14 @@ We present an ImageJ plugin that precisely and rapidly quantifies colony formati
 
 ## Step II. Thresholding and colony quantification using Colony_area:
 
-1. After you have completed the “Image straightening and ROI selection” steps, go to the plugins menu and select “Colony*area” (Go to \_Plugins -> ColonyArea -> Colony area*).
+1. After you have completed the “Image straightening and ROI selection” steps, go to the plugins menu and select “ColonyArea” (Go to *\_Plugins -> ColonyArea -> Colony area*).
 2. The plugin will ask you to choose the desired postfix for all the names of processed images and result files, plus the directory where you want every resultant file to be saved. So, a save file dialog will appear (See Fig. 3).
 
 ![](images/ColonyArea-Figure3.jpg)
 
 **Figure 3:** Choosing the location the directory for the result files and the postfix that the files will have. 3. The default for postfix is set as the name of your image file (i.e. a file called “name.tiff” will have “\_name” as postfix).
 
-4. The ROI will be converted to gray scale (8-bit). Then you will be presented with an option menu where you can choose the type of plate that is going to be processed (different plate sizes have different distances between wells). This choice refers only to the type of plate (6, 12 or 24-well) and not to the actual number of wells that you have selected in the ROI (See Fig. 4). It is also possible to use custom plates, see the “Appendix A6” of this manual for details.
+3. The ROI will be converted to gray scale (8-bit). Then you will be presented with an option menu where you can choose the type of plate that is going to be processed (different plate sizes have different distances between wells). This choice refers only to the type of plate (6, 12 or 24-well) and not to the actual number of wells that you have selected in the ROI (See Fig. 4). It is also possible to use custom plates, see the “Appendix A6” of this manual for details.
 
 ![](images/ColonyArea-Figure4.jpg)
 
@@ -48,14 +48,14 @@ We present an ImageJ plugin that precisely and rapidly quantifies colony formati
 
 **Figure 5:** Operating the plugin: choose the number of wells in a row and in a column. 5. The user will be asked to give the number of wells in a row and in a column. The values provided here must correspond to the wells that you have selected in the ROI (See Fig. 5).
 
-1. The plugin will proceed to crop the image, detect the wells, and create an image stack type “.tiff” of the wells. This image stack is named “wells_name.tiff” and it will be saved in the results folder you specified (See “Appendix” for details on file naming). The wells in this image stack are ordered starting from the well on the top-right corner of the selected region of interest (See Fig. 6), continuing with those wells to the right, and after proceeding with the next row in the same way (i.e. like writing a text, left to right and top to bottom). This image stack file contains only the identified wells in an 8-bit grey scale format.
+4. The plugin will proceed to crop the image, detect the wells, and create an image stack type “.tiff” of the wells. This image stack is named “wells_name.tiff” and it will be saved in the results folder you specified (See “Appendix” for details on file naming). The wells in this image stack are ordered starting from the well on the top-right corner of the selected region of interest (See Fig. 6), continuing with those wells to the right, and after proceeding with the next row in the same way (i.e. like writing a text, left to right and top to bottom). This image stack file contains only the identified wells in an 8-bit grey scale format.
    [Note: If the plugin detects that you have not cropped the image to a required degree of accuracy, it will ask you to correct this. See the “Appendix” of this manual for details about such case.]
 
 ![](images/ColonyArea-Figure6.jpg)
 
 **Figure 6:** Example from a 12-well plate showing how the wells are ordered in the stack file (“wells_name.tiff”). The numbers in red have been superposed here for explanation purposes but are not present on the execution of the plugin.
 
-1.  In the next step, the image stack of the cropped and selected wells (“wells_name.tiff”) is thresholded to detect the pixels containing the cells and remove the background. A second image stack named “thresholded_wells_name.tiff” will appear showing the identified colonies with their respective intensity using a “fire” lookup table (LUT) on a white background (See Fig. 7). Another window is also displayed with the threshold value applied to each well. This file will be saved with the name “applied_threshold_wells_name.txt” (See Fig. 8).
+5.  In the next step, the image stack of the cropped and selected wells (“wells_name.tiff”) is thresholded to detect the pixels containing the cells and remove the background. A second image stack named “thresholded_wells_name.tiff” will appear showing the identified colonies with their respective intensity using a “fire” lookup table (LUT) on a white background (See Fig. 7). Another window is also displayed with the threshold value applied to each well. This file will be saved with the name “applied_threshold_wells_name.txt” (See Fig. 8).
     [Note: There might be cases when the thresholds can not be detected according to the standard method or the result is not satisfactory, i.e. colonies are missing or background is also selected, for further explanation on how to deal with such cases see the “Appendix” section of this manual.]
     1234
     5678 9 10! 11! 12!
@@ -70,7 +70,7 @@ We present an ImageJ plugin that precisely and rapidly quantifies colony formati
 
 **Figure 8:** The plugin displays the cropped wells stack and the thresholded stack alongside to allow for visual comparison and identification of cases when parts of the background might have been selected as colonies. It also displays the computed thresholds.
 
-1. To calculate the results use the “Colony measurer” tool. Select the window containing the thresholded wells stack (“thresholded*wells_name.tiff”) and go to \_Plugins -> ColonyArea -> Colony measurer* (See Fig. 9).
+1. To calculate the results use the “Colony measurer” tool. Select the window containing the thresholded wells stack (“thresholded-wells_name.tiff”) and go to *\_Plugins -> ColonyArea -> Colony measurer* (See Fig. 9).
 
 ![](images/ColonyArea-Figure9.jpg)
 
