@@ -1,7 +1,7 @@
 <p float='left'>
     <img src='images/ColonyArea-Figure01.jpg' style="height:125px;width:auto;"/>
     <img src='images/ColonyArea-Figure04.jpg' style="height:125px;width:auto;margin-left:15px;"/>
-    <img src='images/ColonyArea-Figure07.png' style="height:125px;width:auto;margin-left:15px;"/>
+    <img src='images/ColonyArea-Figure07.jpg' style="height:125px;width:auto;margin-left:15px;"/>
 </p>
 
 # ColonyArea ImageJ plugin
