@@ -1,10 +1,11 @@
 <p float='left'>
-    <img src='images/Figure1.jpg' style="height:125px;width:auto;"/>
-    <img src='images/Figure4.jpg' style="height:125px;width:auto;margin-left:15px;"/>
-    <img src='images/Figure7.png' style="height:125px;width:auto;margin-left:15px;"/>
+    <img src='images/ColonyArea-Figure01.jpg' style="height:125px;width:auto;"/>
+    <img src='images/ColonyArea-Figure04.jpg' style="height:125px;width:auto;margin-left:15px;"/>
+    <img src='images/ColonyArea-Figure07.png' style="height:125px;width:auto;margin-left:15px;"/>
 </p>
 
 # ColonyArea ImageJ plugin
+
 [![DOI:10.1371/journal.pone.0092444](http://img.shields.io/badge/DOI-10.1371/journal.pone.0092444-00AEEF.svg)](https://doi.org/10.1371/journal.pone.0092444)
 
 **Camilo Guzmán<sup>1,2</sup>, Manish Bagga<sup>1,2</sup>, Amanpreet Kaur<sup>1</sup>, Jukka Westermarck<sup>1</sup>, and Daniel Abankwa<sup>1</sup>**
