@@ -13,13 +13,18 @@
 <sup>1</sup>Turku Centre for Biotechnology, University of Turku, Åbo Akademi University  
 <sup>2</sup>Equal contribution
 
-<table style='border-collapse: collapse; border-style:hidden';>
-<tr style='padding:10px;'>
-<td style='padding: 10px;'><a href='https://bioscience.fi' target='_blank'><img src='images/turku_bioscience_logo_RGB-300x78.png' width='auto' height='45'/></a></td>
-<td style='padding: 10px;'><a href='https://utu.fi' target='_blank'><img src='images/UTU_logo_EN_RGB.png' width='auto' height='45'/></a></td>
-<td style='padding: 10px;'><a href='https://abo.fi' target='_blank'><img src='images/aaenglogobasicbw2009.png' width='auto' height='55'/></a></td>
-</tr>
-</table>
+<p float='left'>
+    <a href='https://bioscience.fi' target='_blank'>
+        <img src='images/turku_bioscience_logo_RGB-300x78.png' style='height:45px;width:auto;'>
+    </a>
+    <a href='https://utu.fi' target='_blank'>
+        <img src='images/UTU_logo_EN_RGB.png' style='height:45px;width:auto;margin-left:25px;'>
+    </a>
+    <a href='https://abo.fi' target='_blank'>
+        <img src='images/aaenglogobasicbw2009.png' style='height:45px;width:auto;margin-left:25px;'>
+    </a>
+</p>
+
 
 ## Abstract:
 
@@ -84,5 +89,7 @@ Beginning in October 2022, maintenance of this plugin is handled by [Turku BioIm
 For more information and support, email [image-data@bioimaging.fi](mailto:image-data@bioimaging.fi)
 
 <p float='left'>
-    <img src='images/BioImaging_logo_posa_vaaka.jpg' style="height:75px;width:auto;"/>
+    <a href='https://bioimaging.fi' target='_blank'>
+        <img src='images/BioImaging_logo_posa_vaaka.jpg' style="height:75px;width:auto;"/>
+    </a>
 </p>
