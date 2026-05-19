@@ -17,13 +17,11 @@
     along with ColonyArea.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+package ColonyArea;
+
 import ij.*;
-import ij.Macro;
-import ij.WindowManager.*;
 import ij.gui.*;
-import ij.io.SaveDialog.*;
 import ij.io.SaveDialog;
-import ij.plugin.ImageCalculator.*;
 import ij.plugin.filter.*;
 import ij.process.*;
 import java.awt.*;
