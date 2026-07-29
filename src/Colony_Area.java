@@ -26,7 +26,7 @@ import ij.plugin.filter.*;
 import ij.process.*;
 import java.awt.*;
 
-public class Colony_area implements PlugInFilter {
+public class ColonyArea implements PlugInFilter {
 
   ImagePlus imp;
 
